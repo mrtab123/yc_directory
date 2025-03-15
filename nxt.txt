@@ -1,0 +1,16 @@
+AUTH_SECRET="hgtbPYIxOGFGPZePtQzsqFHYrz2mYKq59mSuJqCeqNc=" # Added by `npx auth`. Read more: https://cli.authjs.dev
+AUTH_GITHUB_ID="Ov23liD3KpSEnLDREQT4"
+AUTH_GITHUB_SECRET="00dcf8683dcebd388a647bfd5922a9769c15da27"
+
+npx create-next-app@15.0.2
+npm install next-auth@beta
+npx auth secret
+https://authjs.dev/getting-started/providers/github?framework=next-js
+
+https://github.com/settings/applications/2919822
+npx shadcn@latest add avatar
+
+npm install -D tailwindcss-animate
+npm i @tailwindcss/typography@0.0.0-insiders.0339c42
+npx shadcn@latest add sonner
+
